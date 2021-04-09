@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation" rel="stylesheet"
+    type="text/css" />
+  <link rel="stylesheet" href="./src/main.css">
+  <title>Litwiz | Assignment</title>
+</head>
+
+<body>
+  <div class="landing-page">
+    <header>
+      <div class="banner">
+        <div class="logo">
+          <img src="./src/media/litlogo.png" alt="litlogo">
+        </div>
+        <div>
+          <h1>Digital Receptionist</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="content flex">
+      <div class="video">
+        <video width="500" height="500" controls autoplay>
+          <source src="./src/media/receptionist.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="camera-feed">
+        <h2>Welcome! <span class="d-block">Align your face in the box</span></h2>
+        <div class="camera-feed-border">
+          <video class="live-feed" width="350px" height="350px" autoplay></video>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-input" name="name" placeholder="Type here">
+          <span class="submit-icon"></span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <marquee width="100%" direction="left" height="76px">
+        Moving text will appear here
+      </marquee>
+    </div>
+  </div>
+
+  <script src="./src/index.js"></script>
+</body>
+</html>
